@@ -1,0 +1,42 @@
+* {
+  /* removing browser margins and paddings  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbarParent {
+  display: flex;
+  background: #54bab9;
+  color: white;
+  padding: 10px 30px;
+  /* justify-content: center; */
+}
+#navItemsParent {
+  display: flex;
+  /* background: yellowgreen; */
+  flex-grow: 1;
+  align-items: center;
+}
+#logoDiv {
+  padding: 3px;
+}
+#logo {
+  padding: 10px 20px;
+  font-size: 25px;
+}
+#deadspace {
+  flex-grow: 1;
+}
+.navChild {
+  flex-grow: 1;
+}
+#cta {
+  padding: 3px;
+}
+#ctabtn {
+  color: white;
+  background: #6867ac;
+  border-radius: 10px;
+  border-solid: 10px;
+  padding: 5px 10px;
+}
