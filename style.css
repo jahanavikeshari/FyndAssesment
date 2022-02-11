@@ -40,3 +40,59 @@
   border-solid: 10px;
   padding: 5px 10px;
 }
+.herosection {
+  background-image: cover;
+  display: flex;
+  width: 100vw;
+  /* height: 30vh; */
+}
+#rightimage {
+  background-image: cover;
+  background-size: 100%;
+  margin-left: 70px;
+  position: relative;
+}
+.bannerimg {
+  position: absolute;
+  top: 80px;
+  right: 5px;
+}
+#searchimg {
+  width: 500px;
+  margin-right: 100px;
+}
+.serviceheading {
+  text-align: center;
+  margin: 10;
+}
+.serviceheading h1 {
+  color: #54bab9;
+}
+#clients {
+  color: #54bab9;
+}
+#offer {
+  color: #54bab9;
+}
+.servicecards {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+.servicecard1 {
+  display: flex;
+  height: 300px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.servicecontent1 {
+  padding: 10px 50px;
+}
+#icon1 {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
